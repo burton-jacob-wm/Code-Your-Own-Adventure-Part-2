@@ -229,7 +229,7 @@ function game() {
     var bearHealth = 8;
 
     function bearDamage (Damage) {
-        bearHealth -= Damage + swordDamage;
+        bearHealth -= Damage + user.swordDamage;
         console.log("Bear Health: " + bearHealth + "/8");
         sleep(1000);
     }
@@ -238,7 +238,7 @@ function game() {
     var banditHealth = 8;
 
     function banditDamage (Damage) {
-        banditHealth -= Damage + swordDamage;
+        banditHealth -= Damage + user.swordDamage;
         console.log("Bandit Health: " + banditHealth + "/8");
         sleep(1000);
     }
@@ -247,7 +247,7 @@ function game() {
     var entHealth = 22;
 
     function entDamage (Damage) {
-        entHealth -= Damage + swordDamage;
+        entHealth -= Damage + user.swordDamage;
         console.log("Ent Health: " + entHealth + "/22");
         sleep(1000);
     }
@@ -256,7 +256,7 @@ function game() {
     var manHealth = 18;
 
     function manDamage (Damage) {
-        manHealth -= Damage + swordDamage;
+        manHealth -= Damage + user.swordDamage;
         console.log("Man's Health: " + manHealth + "/18");
         sleep(1000);
     }
@@ -265,7 +265,7 @@ function game() {
     var spiderHealth = 12;
 
     function spiderDamage (Damage) {
-        spiderHealth -= Damage + swordDamage;
+        spiderHealth -= Damage + user.swordDamage;
         console.log("Spider's Health: " + spiderHealth + "/12");
         sleep(1000);
     }
@@ -274,7 +274,7 @@ function game() {
     var muggerHealth = 18;
 
     function muggerDamage (Damage) {
-        muggerHealth -= Damage + swordDamage;
+        muggerHealth -= Damage + user.swordDamage;
         console.log("Mugger's Health: " + muggerHealth + "/18");
         sleep(1000);
     }
@@ -283,7 +283,7 @@ function game() {
     var yetiHealth = 15;
 
     function yetiDamage (Damage) {
-        yetiHealth -= Damage + swordDamage;
+        yetiHealth -= Damage + user.swordDamage;
         console.log("Yeti's Health: " + yetiHealth + "/15");
         sleep(1000);
     }
@@ -292,7 +292,7 @@ function game() {
     var minerHealth = 12;
 
     function minerDamage (Damage) {
-        minerHealth -= Damage + swordDamage;
+        minerHealth -= Damage + user.swordDamage;
         console.log("Miner's Health: " + minerHealth + "/12");
         sleep(1000);
     }
@@ -301,7 +301,7 @@ function game() {
     var raiderHealth = 10;
 
     function raiderDamage (Damage) {
-        raiderHealth -= Damage + swordDamage;
+        raiderHealth -= Damage + user.swordDamage;
         console.log("Raider's Health: " + raiderHealth + "/10");
         sleep(1000);
     }
@@ -310,7 +310,7 @@ function game() {
     var mummyHealth = 7;
 
     function mummyDamage (Damage) {
-        mummyHealth -= Damage + swordDamage;
+        mummyHealth -= Damage + user.swordDamage;
         console.log("Mummy's Health: " + mummyHealth + "/7");
         sleep(1000);
     }
@@ -319,7 +319,7 @@ function game() {
     var merchantHealth = 11;
 
     function merchantDamage (Damage) {
-        merchantHealth -= Damage + swordDamage;
+        merchantHealth -= Damage + user.swordDamage;
         console.log("Merchant's Health: " + merchantHealth + "/11");
         sleep(1000);
     }
@@ -328,7 +328,7 @@ function game() {
     var assassinHealth = 15;
 
     function assassinDamage (Damage) {
-        assassinHealth -= Damage + swordDamage;
+        assassinHealth -= Damage + user.swordDamage;
         console.log("Assassin's Health: " + assassinHealth + "/15");
         sleep(1000);
     }
@@ -343,7 +343,7 @@ function game() {
         sleep(1000);
     }
     function captainDamage (Damage) {
-        pirateCaptainHealth -= Damage + swordDamage;
+        pirateCaptainHealth -= Damage + user.swordDamage;
         console.log("Pirate Captains's Health: " + pirateCaptainHealth + "/20");
         sleep(1000);
     }
@@ -363,7 +363,7 @@ function game() {
         sleep(1000);
     }
     function vikingDamage (Damage) {
-        vikingCaptainHealth -= Damage + swordDamage;
+        vikingCaptainHealth -= Damage + user.swordDamage;
         console.log("Pirate Captains's Health: " + vikingCaptainHealth + "/18");
         sleep(1000);
     }
@@ -405,14 +405,14 @@ function game() {
     var protectorShield = 20;
 
     function protectorShieldDamage (Damage) {
-        protectorShield -= Damage + swordDamage;
+        protectorShield -= Damage + user.swordDamage;
         console.log("Protector's Shield: " + protectorShield + "/20");
         sleep(1000);
     }
 
 
     function protectorDamage (Damage) {
-        protectorHealth -= Damage + swordDamage;
+        protectorHealth -= Damage + user.swordDamage;
         console.log("Protector's Health: " + protectorHealth + "/50");
         sleep(1000);
     }
