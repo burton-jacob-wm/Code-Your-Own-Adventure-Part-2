@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Jacob Burton</title>
+
+    <link href="twoColLiqRtHdr.css" rel="stylesheet" type="text/css" />
+    <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic" rel="stylesheet" type="text/css">
+
+
+    <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+
+</head>
+
+<body>
+<div class="header-cont">
+    <div class="header">
+        <ul id="MenuBar2" class="MenuBarHorizontal">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="scripts.html">Scripts</a></li>
+            <li><a href="">Twitter</a></li>
+        </ul>
+        <h1><span id="headertext">Jacob Burton</span></h1>
+        <!--end header --></div>
+    <!--end headercontainer --></div>
+<div class="container">
+    <div class="sidebar1">
+        <h2>About Me</h2>
+        <hr class="sidebar1hr"/>
+        <br>
+        <p>Blah blah information blah blah blah placeholder text that isnt important at all blah blah blah okay im done thanks for reading. or am i done? the answer is no right now, but in a few seconds the answer will be yes. So am i done?</p>
+    </div>
+    <div class="content">
+        <h1><b>	Welcome!</b></h1>
+        <h3>Yolo we did it.</h3>
+        <hr />
+        <p>'Do it, just do it! Don&rsquo;t let your dreams be dreams. Yesterday you said tomorrow. So just do it! Make your dreams come true. Just do it. Some people dream of success, while you&rsquo;re going to wake up and work hard at it. Nothing is impossible… you should get to the point where anyone else would quit and you&rsquo;re not going to stop there. NO! What are you waiting for?! DO IT! JUST DO IT! YES YOU CAN! JUST DO IT! If you&rsquo;re tired of starting over, stop giving up.' - The guy from holes</p>
+        <hr />
+        <p>This website uses less space than the basic text game I made...</p>
+        <a href='linkhref.html' id='mylink'>Start Game</a>
+        <script type="text/javascript">
+
+            var myLink = document.getElementById('mylink');
+
+            myLink.onclick = function(){
+
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.src = "game.js";
+                document.getElementsByTagName("head")[0].appendChild(script);
+                return false;
+
+            }
+        </script>
+        <!-- end .content --></div>
+    <!-- end .container --></div>
+<div class="footer-cont">
+    <div class="footer">
+        <p>Copyright © 2015. All rights reserved.</p>
+        <!-- end .footer --></div>
+    <!-- end footer container --></div>
+<script type="text/javascript">
+    var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
