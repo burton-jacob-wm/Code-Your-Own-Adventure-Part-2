@@ -1,3 +1,4 @@
+//Start
 function game() {
     //Variables and functions
     var greeting = function(name) {
